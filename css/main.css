@@ -30,6 +30,7 @@ footer{
   width:100%;
   position: absolute;
   bottom: 0;
+  padding: 2% 5%
 }
 
 nav a{
@@ -59,6 +60,13 @@ nav a{
 }
 .project-desc{
   padding: 3% 5%;
+}
+.social-icon{
+  width: 20px;
+  margin: 1%;
+}
+div .footer-content{
+  display: inline-block;
 }
 #menu{
   text-align: right;
