@@ -24,12 +24,19 @@ li{
   /* border-top: 1px solid black; */
   border-bottom: 1px solid black;
 }
-.first-nav{
+footer{
   border-top: 1px solid black;
+  height:60px;
+  width:100%;
+  position: absolute;
+  bottom: 0;
 }
 
 nav a{
   color: black;
+}
+.first-nav{
+  border-top: 1px solid black;
 }
 
 .icon{
@@ -44,7 +51,15 @@ nav a{
 .title{
   padding: 4%;
 }
-
+.proj-pic{
+  width:100%;
+}
+.title{
+  padding-left: 5%;
+}
+.project-desc{
+  padding: 3% 5%;
+}
 #menu{
   text-align: right;
   padding: 3% 4%;
