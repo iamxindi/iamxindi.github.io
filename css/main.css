@@ -1,6 +1,51 @@
+html{
+  font-size: 62.5%;
+}
+
+nav{
+  text-align: center;
+}
+
+h1{
+  font-size: 2rem;
+}
+p{
+  font-size: 1.6rem;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+li{
+  padding:3%;
+  /* border-top: 1px solid black; */
+  border-bottom: 1px solid black;
+}
+.first-nav{
+  border-top: 1px solid black;
+}
+
+nav a{
+  color: black;
+}
+
+.icon{
+  width:20px;
+}
 .container-fluid{
-  background-color: grey;
+
 }
 .project{
   display: inline-block;
+}
+.title{
+  padding: 4%;
+}
+
+#menu{
+  text-align: right;
+  padding: 3% 4%;
 }
