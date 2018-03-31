@@ -2,39 +2,54 @@ html{
   font-size: 62.5%;
 }
 
+
 nav{
   text-align: center;
 }
 
 h1{
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 200;
 }
 p{
   font-size: 1.6rem;
 }
 
-ul{
+nav ul{
   list-style-type: none;
   padding: 0;
   font-size: 1.5rem;
 }
 
-li{
-  padding:3%;
+nav ul li{
+  padding:15px;;
   /* border-top: 1px solid black; */
   border-bottom: 1px solid black;
 }
+section{
+  text-align: center;
+}
 footer{
   border-top: 1px solid black;
-  height:60px;
+  height:80px;
   width:100%;
-  position: absolute;
+  position: fixed;
+  padding: 2% 5%;
   bottom: 0;
-  padding: 2% 5%
+  left:0;
+  overflow: hidden;
+  background-color: white;
 }
 
 nav a{
   color: black;
+}
+nav a:hover{
+  color:red;
+  text-decoration: none;
+}
+.row{
+  padding: 15px;
 }
 .first-nav{
   border-top: 1px solid black;
@@ -43,17 +58,21 @@ nav a{
 .icon{
   width:20px;
 }
-.container-fluid{
 
+.current-page{
+  font-weight: bold;
+  text-decoration: line-through;
 }
 .project{
   display: inline-block;
 }
-.title{
-  padding: 4%;
+div .title{
+  padding-top: 4%;
+  padding-bottom: 4%;
+  /* padding-left: 0; */
 }
 .proj-pic{
-  width:100%;
+  width:80%;
 }
 .title{
   padding-left: 5%;
@@ -68,7 +87,22 @@ nav a{
 div .footer-content{
   display: inline-block;
 }
+/* About page */
+
+#about{
+  text-align: left;
+  margin-left: 40px;
+  /* text-align: left; */
+
+}
+.about-pic{
+  width: 90%;
+}
+
+.project{
+  display: inline-block;
+}
 #menu{
   text-align: right;
-  padding: 3% 4%;
+  padding: 24px 18px;
 }
