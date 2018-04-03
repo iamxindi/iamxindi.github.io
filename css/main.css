@@ -110,6 +110,7 @@ div .footer-content{
   /* text-align: right; */
   padding: 24px 18px;
 }
+<<<<<<< HEAD
 #menu-button{
   width:20px;
   float: right;
@@ -120,3 +121,9 @@ div .footer-content{
   margin-left: 46.5%;
   vertical-align:middle;
 }
+=======
+
+/* #litebox:hover{
+  background: url('img/litebox-hover.png')
+} */
+>>>>>>> refs/remotes/origin/master

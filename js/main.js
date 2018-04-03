@@ -3,7 +3,10 @@ $(document).ready(function(){
   $('#menu').on('click',function(){
     $('nav').slideToggle();
   })
-  // $('.project').on('hover',function(){
-  //   alert('yes')
-  // })
+  $('#litebox').on('mouseenter',function(){
+    $('#litebox').children().children().attr('src','img/litebox-hover.png');
+  }).on('mouseleave',function(){
+    $('#litebox').children().children().attr('src','img/litebox.png').slideDown();
+  })
+
 })
