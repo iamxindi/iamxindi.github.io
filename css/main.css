@@ -41,11 +41,11 @@ footer{
   padding: 2% 5%;
   bottom: 0;
   left:0;
-  overflow: hidden;
   background-color: white;
 }
 
 nav a{
+  transition: color 0.5s ease;
   color: black;
 }
 nav a:hover{
@@ -59,9 +59,9 @@ nav a:hover{
   border-top: 1px solid black;
 }
 
-.icon{
-  width:20px;
-}
+
+
+
 
 .current-page{
   font-weight: bold;
@@ -107,6 +107,16 @@ div .footer-content{
   display: inline-block;
 }
 #menu{
-  text-align: right;
+  /* text-align: right; */
   padding: 24px 18px;
+}
+#menu-button{
+  width:20px;
+  float: right;
+  margin-top: 10px;
+}
+#logo{
+  width:50px;
+  margin-left: 46.5%;
+  vertical-align:middle;
 }
