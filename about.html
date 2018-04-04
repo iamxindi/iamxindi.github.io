@@ -19,21 +19,23 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <script src="js/main.js"></script>
+  <script src="js/mobile-nav.js"></script>
 
   <title>Xindi Wang</title>
 </head>
 
 <body>
   <div id="menu">
-    <img class = 'icon' src='img/menu.png'><img>
+    <img id = "logo" src='img/icon-small.png'>
+    <img id = 'menu-button' src='img/menu.png'>
   </div>
   <aside>
 
     <nav>
       <ul>
-        <li class = "first-nav"><a href="work.html">Work</a></li>
-        <li class = 'current-page'><a href="about.html">About</a></li>
-        <li><a href="resume.html">Resume</a></li>
+        <a href="work.html"><li class = "first-nav">Work</li></a>
+        <a href="about.html" class="current-page"><li>About</li></a>
+        <a href="resume.html"><li>Resume</li></a>
       </ul>
     </nav>
   </aside>

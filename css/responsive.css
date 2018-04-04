@@ -20,6 +20,9 @@
   .about-pic{
     width: 70%;
   }
+  nav{
+    display: block;
+  }
 }
 
 
