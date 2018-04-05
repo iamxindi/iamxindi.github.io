@@ -23,6 +23,14 @@
   nav{
     display: block;
   }
+  .btn-outline-primary{
+    float:right;
+    position: relative;
+    bottom: 20px;
+  }
+  footer >p{
+    margin-left: 22%;
+  }
 }
 
 
@@ -37,7 +45,7 @@
   aside{
     display: inline-block;
     width: 225px;
-    height:700px;
+    height:auto;
     /* background-color: red; */
   }
   /* nav ul:before{
@@ -51,7 +59,7 @@
     margin-top:150px;
   }
   #logo{
-    margin-left: 8%;
+    margin-left: 75px;
     margin-top: 20px;
     /* display: none; */
     /* float:left; */
@@ -66,15 +74,34 @@
     margin-left: 10px;
 
   }
+
   footer{
     width:225px;
     border-top: none;
     float: left;
     height:auto;
+    position: absolute;
     padding: 20px;
     text-align: center;
+    background: none;
 
   }
+  footer >p{
+    margin-left: 0;
+    color: black;
+  }
+  .btn-outline-primary{
+    color:black;
+    margin-top: 10px;
+    float:none;
+    position: static;
+    border-color: black;
+
+  }
+  .fab{
+    color:black;
+  }
+
 
 }
   /* nav ul li{

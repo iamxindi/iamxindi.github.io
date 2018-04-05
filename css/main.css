@@ -49,13 +49,16 @@ nav ul li.current-page:before{
 }
 section{
   text-align: center;
+  height:auto;
+  overflow-y: scroll;
 }
 footer{
+  text-align: center;
   border-top: 1px solid black;
-  height:100px;
+  height:auto;
   width:100%;
-  position: fixed;
-  padding: 2% 5%;
+  position: relative;
+  padding: 20px 5%;
   bottom: 0;
   left:0;
   background: url('https://i.pinimg.com/originals/ab/8c/e7/ab8ce77e3791f05c1668b1205d7e5538.jpg')
@@ -88,10 +91,14 @@ nav a:hover{
 .project{
   display: inline-block;
 }
+
+/* section{
+  display: inline-block;
+} */
 div .title{
-  padding-top: 4%;
-  padding-bottom: 4%;
-  /* padding-left: 0; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 38px;
 }
 .proj-pic{
   width:80%;
@@ -103,16 +110,18 @@ div .title{
   padding: 3% 5%;
 }
 .social-icon{
-  width: 20px;
-  margin: 1%;
+  text-align: center;
+  /* width: 20px; */
+  /* margin: 1%; */
 }
 div .footer-content{
-  display: inline-block;
+  /* display: inline-block; */
 }
 /* About page */
 
 #about{
-  text-align: left;
+  tex
+  t-align: left;
   margin-left: 40px;
   /* text-align: left; */
 
@@ -144,9 +153,7 @@ div .footer-content{
   text-align: center;
   padding: 20px;
 }
-.card{
-  margin: 10px;
-}
+
 /* #litebox:hover{
   background: url('img/litebox-hover.png')
 } */
@@ -176,18 +183,19 @@ div .footer-content{
 }
 
 .space{
-  height:200px;
+  height:100px;
 }
 
-button .contact{
+/* button .contact{
   display: inline-block;
   margin-right: 10px;
-}
+} */
 
 .btn-outline-primary{
   color:white;
-  float:right;
+  /* float:right; */
   border-color:white;
+  margin:10px 0;
 }
 
 .btn-outline-primary:hover{
@@ -196,7 +204,18 @@ button .contact{
   border-color: white;
 }
 
-.footer-content > p{
+footer > p{
+  position: relative;
+  /* bottom: -50px; */
   color:white;
-  display: inline-block;
+  /* display: inline-block; */
+}
+
+.fab{
+  color:white;
+  font-size: 1.6rem;
+  margin: 10px;
+}
+.card{
+  height: auto;
 }
