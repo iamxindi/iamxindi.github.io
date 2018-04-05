@@ -52,13 +52,14 @@ section{
 }
 footer{
   border-top: 1px solid black;
-  height:80px;
+  height:100px;
   width:100%;
   position: fixed;
   padding: 2% 5%;
   bottom: 0;
   left:0;
-  background-color: white;
+  background: url('https://i.pinimg.com/originals/ab/8c/e7/ab8ce77e3791f05c1668b1205d7e5538.jpg')
+  /* background-color: black; */
 }
 
 nav a{
@@ -175,5 +176,27 @@ div .footer-content{
 }
 
 .space{
-  height:400px;
+  height:200px;
+}
+
+button .contact{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.btn-outline-primary{
+  color:white;
+  float:right;
+  border-color:white;
+}
+
+.btn-outline-primary:hover{
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.footer-content > p{
+  color:white;
+  display: inline-block;
 }

@@ -28,6 +28,9 @@
 
 
 @media screen and (min-width: 1000px){
+  nav ul{
+    margin-top: 0;
+  }
   section{
     /* background-color: yellow; */
   }
@@ -48,7 +51,13 @@
     margin-top:150px;
   }
   #logo{
-    display: none;
+    margin-left: 8%;
+    margin-top: 20px;
+    /* display: none; */
+    /* float:left; */
+  }
+  #menu{
+    text-align: left;
   }
   #c{
     position: fixed;
@@ -64,6 +73,7 @@
     height:auto;
     padding: 20px;
     text-align: center;
+
   }
 
 }
