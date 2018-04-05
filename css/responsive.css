@@ -20,9 +20,7 @@
   .about-pic{
     width: 70%;
   }
-  nav{
-    display: block;
-  }
+
   .btn-outline-primary{
     float:right;
     position: relative;
@@ -39,19 +37,12 @@
   nav ul{
     margin-top: 0;
   }
-  section{
-    /* background-color: yellow; */
-  }
   aside{
     display: inline-block;
     width: 225px;
     height:auto;
-    /* background-color: red; */
   }
-  /* nav ul:before{
-    content: url('img/icon-small.png');
 
-  } */
   nav ul li{
     display: block;
   }
@@ -59,6 +50,7 @@
     margin-top:150px;
   }
   #logo{
+    /* position: fixed; */
     margin-left: 75px;
     margin-top: 20px;
     /* display: none; */
@@ -66,9 +58,10 @@
   }
   #menu{
     text-align: left;
-  }
-  #c{
     position: fixed;
+  }
+  #content{
+    position: absolute;
     top:0;
     display: inline-block;
     margin-left: 10px;
@@ -101,29 +94,17 @@
   .fab{
     color:black;
   }
+  footer{
+    position: fixed;
+  }
+  nav{
+    position: fixed;
+    left:60px;
+    bottom: 200px;
+  }
+  div.title{
+    /* position: fixed; */
+  }
 
 
 }
-  /* nav ul li{
-    display: inline-block;
-    padding:15px;;
-    border-top: none;
-    border-bottom: none;
-  }
-  nav{
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  .first-nav{
-    border-top: none;
-  }
-  #menu{
-    display: none;
-  } */
-  /* aside{
-    display: none;
-    background-color: red;
-    width: 200px;
-    float:left;
-    height: 100%;
-  }

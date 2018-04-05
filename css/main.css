@@ -31,8 +31,16 @@ nav li{
   border-bottom: 1px solid black;
   transition: background-color 0.2s ease;
 }
-
-
+.resume{
+  padding-left: 40px;
+  text-align: left;
+}
+#resume-pic{
+  border:1px solid black;
+  border-radius: 4px;
+  width:50%;
+  padding-left: 20px;
+}
 
 nav li:hover{
   background-color: black;
@@ -152,6 +160,7 @@ div .footer-content{
 .gallery{
   text-align: center;
   padding: 20px;
+  height: 100%;
 }
 
 /* #litebox:hover{

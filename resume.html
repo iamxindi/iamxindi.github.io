@@ -16,8 +16,14 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-lightbox.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-lightbox.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <script src="js/bootstrap-lightbox.js"></script>
+  <script src="js/bootstrap-lightbox.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/mobile-nav.js"></script>
 
@@ -26,44 +32,59 @@
 
 <body>
   <div id="menu">
-    <img id = "logo" src='img/icon-small.png'>
-    <img id = 'menu-button' src='img/menu.png'>
+    <a href='work.html'><img id = "logo" src='img/icon-small.png'></a>
+    <img id='menu-button' src='img/menu.png'>
   </div>
   <aside>
 
     <nav>
       <ul>
-        <a href="work.html"><li class = "first-nav">Work</li></a>
-        <a href="about.html"><li>About</li></a>
-        <a href="resume.html" class = 'current-page'><li>Resume</li></a>
+        <a href="work.html">
+          <li class="first-nav">Work</li>
+        </a>
+        <a href="about.html">
+          <li>About</li>
+        </a>
+        <a href="resume.html">
+          <li class='current-page'>Resume</li>
+        </a>
+        <a href="gallery.html">
+          <li>Gallery</li>
+        </a>
       </ul>
     </nav>
   </aside>
-  <div id='c'>
-  <div class='title'>
-    <h1>Xindi Wang</h1>
-    <p>Creating meaningful and accessible experience.</p>
-  </div>
+  <div id='content'>
+    <div class='title'>
+      <h1>Xindi Wang</h1>
+      <h2>Creating meaningful and accessible experience.</h2>
+    </div>
 
-  <section id = "about">
-     <img class = 'about-pic' src="img/about.png">
-
-   </section>
+    <!-- Content -->
+    <section class="resume">
+      <div id = 'resume-pic'>
+        <a href="img/resume.png" data-lightbox="image-1">
+        <img class="card-img-top" src="img/resume.png" alt="My Resume"> </a>
+      </div>
+      <a href="assets/resume.pdf"><button type="button" class="btn btn-outline-primary btn-lg contact">Download My Resume</button></a>
+    </section>
+      <div class='space'></div>
   </div>
+  <!-- Content ends-->
+  <div class='space'></div>
 
   <footer>
-  <div class='footer-content'>
-    <p>Contact: xindi@umich.edu</p>
-  </div>
-  <div class='footer-content'>
-    <a href="https://www.linkedin.com"><img class = 'social-icon' src="img/linkedin.png"></a>
-    <a href="https://www.instagram.com"><img class = 'social-icon' src="img/instagram.png"></a>
+    <div class='social-icon'>
+      <a href="https://www.linkedin.com/in/xindi-wang-ux/"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/xd_xyz/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/wangcd94"><i class="fab fa-facebook-f"></i></a>
+    </div>
+    <a href="mailto:xindi@umich.edu"><button type="button" class="btn btn-outline-primary btn-lg contact">Shoot me an email</button></a>
+    <!-- <div class='footer-content'> -->
+    <p>Coded and designed with <i class="em em-blue_heart"></i> by Xindi Wang</p>
 
-  </div>
-
+    <!-- </div> -->
   </footer>
-
-
 </body>
 
 </html>

@@ -8,4 +8,5 @@ $(document).ready(function(){
       $('#logo').attr("src","img/icon-small.png");
     });
 
+
 })
