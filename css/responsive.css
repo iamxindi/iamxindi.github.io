@@ -37,11 +37,18 @@
     height:700px;
     /* background-color: red; */
   }
+  /* nav ul:before{
+    content: url('img/icon-small.png');
+
+  } */
   nav ul li{
     display: block;
   }
   ul{
     margin-top:150px;
+  }
+  #logo{
+    display: none;
   }
   #c{
     position: fixed;

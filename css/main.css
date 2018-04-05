@@ -37,6 +37,15 @@ nav li{
 nav li:hover{
   background-color: black;
   color:white;
+  font-weight: 600;
+}
+
+nav ul li.current-page:before{
+  content: "\27A4  ";
+  color: black;
+  padding-right: 4px;
+  position: relative;
+  top: 1px;
 }
 section{
   text-align: center;
@@ -72,12 +81,9 @@ nav a:hover{
 
 .current-page{
   font-weight: bold;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
 }
-.current-page::before{
-  /* font-family: FontAwesome;
-  content:'\f0da'; */
-}
+
 .project{
   display: inline-block;
 }
