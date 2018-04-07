@@ -28,30 +28,43 @@
 
 <body>
   <div id="menu">
-    <a href='work.html'><img id = "logo" src='img/icon-small.png'></a>
-    <img id = 'menu-button' src='img/menu.png'>
+    <a href='work.html'><img id = "logo" src='img/icon-small.png' alt="logo"></a>
+    <img id='menu-button' src='img/menu.png' alt="menu button">
   </div>
   <aside>
 
     <nav>
       <ul>
-        <a href="work.html"><li class = "first-nav">Work</li></a>
-        <a href="about.html"><li class = "current-page">About</li></a>
-        <a href="resume.html"><li>Resume</li></a>
-        <a href="gallery.html"><li>Gallery</li></a>
+
+          <li class="first-nav" onclick="location.href='work.html';"><a href="work.html">Work</a></li>
+
+
+          <li class="current-page" onclick="location.href='about.html';">About</li>
+
+
+          <li onclick="location.href='resume.html';">Resume</li>
+
+
+          <li onclick="location.href='gallery.html';">
+            Gallery</li>
+
       </ul>
     </nav>
   </aside>
-  <div id='c'>
-  <div class='title'>
-    <h1>Xindi Wang</h1>
-    <h2>Creating meaningful and accessible experience.</h2>
-  </div>
+  <div id='content'>
+    <div class='title'>
+      <h1>Xindi Wang</h1>
+      <h2>Creating meaningful and accessible experience.</h2>
+    </div>
+
 
 <!-- Content -->
 <section id = "about">
-   <img class = 'about-pic' src="img/about.png">
-   <p>Being a UX designer, I always see myself as a translator.
+   <img class = 'about-pic' src="img/about.png" alt="My Photo">
+
+   <p>
+
+Being a UX designer, I always see myself as a translator.
 
 I translate people's words and behavior into meaningful and accessible experience.
 
@@ -59,30 +72,22 @@ Being a translator means I’m always aware of my audience and adapt to who they
 
 I'm fascinated by diversity. I empathize with human emotions. I'm curious about the inner drive behind a behavior. </p>
  </section>
-  </div>
+
 <!-- Content ends-->
 <div class='space'></div>
 
-    <footer>
-      <div class='social-icon'>
-
-        <a href="https://www.linkedin.com/in/xindi-wang-ux/"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://www.instagram.com/xd_xyz/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com/wangcd94"><i class="fab fa-facebook-f"></i></a>
-
-
-    </div>
-    <a href="mailto:xindi@umich.edu"><button type="button" class="btn btn-outline-primary btn-lg contact">Shoot me an email</button></a>
+<footer>
+  <div class='social-icon'>
+    <a href="https://www.linkedin.com/in/xindi-wang-ux/"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.instagram.com/xd_xyz/"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/wangcd94"><i class="fab fa-facebook-f"></i></a>
+  </div>
+  <a href="mailto:xindi@umich.edu"><button type="button" class="btn btn-outline-primary btn-lg contact">Shoot me an email</button></a>
   <!-- <div class='footer-content'> -->
-    <!-- <div class='footer-content'> -->
-      <p>Coded and designed with <i class="em em-blue_heart"></i> by Xindi Wang</p>
+  <p>Coded and designed with <i class="em em-blue_heart"></i> by Xindi Wang</p>
 
-    <!-- </div> -->
-
-
-    </footer>
-
-
+  <!-- </div> -->
+</footer>
 </body>
 
 </html>
