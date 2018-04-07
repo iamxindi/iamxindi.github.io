@@ -260,7 +260,7 @@ footer > p{
   width:60%;
 }
 
-nav > ul > li > a{
+nav > ul > li{
   font-size:1.4rem;
   font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif;
   /* text-transform: uppercase; */
