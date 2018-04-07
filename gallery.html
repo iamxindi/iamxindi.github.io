@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -28,26 +28,26 @@
 
 <body>
   <div id="menu">
-    <a href='work.html'><img id = "logo" src='img/icon-small.png'></a>
-    <img id='menu-button' src='img/menu.png'>
+    <a href='work.html'><img id = "logo" src='img/icon-small.png' alt="logo"></a>
+    <img id='menu-button' src='img/menu.png' alt="menu button">
   </div>
   <aside>
 
     <nav>
       <ul>
-        <a href="work.html">
-          <li class="first-nav">Work</li>
-        </a>
-        <a href="about.html">
-          <li>About</li>
-        </a>
-        <a href="resume.html">
-          <li>Resume</li>
-        </a>
-        <a href="gallery.html">
-          <li class='current-page'>
-            Gallery</li>
-        </a>
+
+        <li class="first-nav" onclick="location.href='work.html';">Work</li>
+
+
+        <li onclick="location.href='about.html';">About</li>
+
+
+        <li onclick="location.href='resume.html';">Resume</li>
+
+
+        <li class = "current-page" onclick="location.href='gallery.html';">
+          Gallery</li>
+
       </ul>
     </nav>
   </aside>
@@ -60,7 +60,7 @@
 
     <!-- Content -->
     <section class="gallery">
-      <p><i class="em em-star"></i>This is a gallery of Claude Monet's paintings.<i class="em em-star"></i></p>
+      <h2><i class="em em-star"></i>This is a gallery of Claude Monet's paintings.<i class="em em-star"></i></h2>
       <div class="card-columns">
         <div class="card">
           <img class="card-img-top" src="https://i.pinimg.com/564x/11/c8/b9/11c8b9ee6494ef244f6af28bb2b6cd92.jpg" alt="Twilight, Venice">
@@ -149,17 +149,17 @@
 
   <!-- Content ends-->
 
-  <footer >
+  <footer>
     <div class='social-icon'>
       <a href="https://www.linkedin.com/in/xindi-wang-ux/"><i class="fab fa-linkedin-in"></i></a>
       <a href="https://www.instagram.com/xd_xyz/"><i class="fab fa-instagram"></i></a>
       <a href="https://www.facebook.com/wangcd94"><i class="fab fa-facebook-f"></i></a>
     </div>
-    <a href="mailto:xindi@umich.edu"><button type="button" class="btn btn-outline-primary btn-lg contact">Shoot me an email</button></a>
-    <!-- <div class='footer-content'> -->
+    <a class="btn btn-outline-primary btn-lg contact" href="mailto:xindi@umich.edu" role="button">Shoot me an email</a>
+
     <p>Coded and designed with <i class="em em-blue_heart"></i> by Xindi Wang</p>
 
-    <!-- </div> -->
+
   </footer>
 </body>
 
