@@ -1,0 +1,21 @@
+
+body{
+  background: url('file:///Users/Xindi/Documents/2018Winter/539/webDesignExam/images/tic-tac-toe.png');
+}
+
+img{
+  height: 300px;
+
+}
+#center{
+  text-align: center;
+}
+.pic{
+  display: inline-block;
+  width:38%;
+  margin:0;
+  /* height: 400px; */
+  text-align: center;
+  border:solid blue 5px;
+  padding: 5%;
+}
