@@ -237,7 +237,7 @@ function drawSpiral() {
       month = month_array[i % 12]
       tooltip
         .style("left", d3.event.pageX - 20 + "px")
-        .style("top", d3.event.pageY - 88 + "px")
+        .style("top", d3.event.pageY - 100 + "px")
         .style("display", "inline-block")
         .html(month + " " + year + "<br>" + state_text + ":" +
           parseInt(all_year_pm[i]).toString()
