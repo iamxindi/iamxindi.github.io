@@ -2,17 +2,70 @@ body{
 
 }
 
+:root {
+  --nav-size: 200px;
+}
+
+h1{
+  font-weight: 800;
+}
+h2{
+  font-weight: 300;
+}
+
+h3{
+  font-weight: 300;
+}
+
+h6{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* styling side nav bar */
+nav {
+  height: 100%;
+  width: var(--nav-size);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+nav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+nav a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.main{
+  margin-left: var(--nav-size);
+}
+
+.welcome{
+  padding: 25px 50px;
+  margin: 25px 0px;
+}
+
 .content{
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 50px;
+  grid-column-gap: 50px; */
   padding: 25px 50px;
   margin: 25px 0px;
 
 }
 
 .header{
-  background-color: yellow;
+  /* background-color: yellow; */
   /* width: 100px;
   height: 100%;
   position: fixed;
@@ -21,23 +74,31 @@ body{
   overflow-x: hidden; */
 }
 
-.footer{
-  background-color: purple;
-}
-
 .element{
   /* background-color: grey; */
   margin: 25px 0px;
+
 }
+
+.hero-image{
+    display: block;
+    height: 300px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #555;
+  }
+
 .title{
   text-align: center;
+  margin-top: 14px;
 }
 
 .footer {
+  background-color: purple;
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: var(--nav-size);
   background-color: purple;
   color: white;
   text-align: center;
