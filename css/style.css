@@ -1,5 +1,7 @@
 body {
   font-family: 'Nunito', sans-serif;
+  width: 100%;
+  overflow: hidden;
 }
 
 :root {
@@ -26,30 +28,7 @@ h6 {
   text-transform: uppercase;
 }
 
-/* styling side nav bar */
-/* nav {
-  height: 100%;
-  width: var(--nav-size);
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-nav a{
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
 
-nav a:hover {
-  color: #f1f1f1;
-  text-decoration: none;
-} */
 .main {
   margin: var(--nav-size);
 }
@@ -57,94 +36,27 @@ nav a:hover {
 #inside {}
 
 .welcome {
-  padding: 25px 50px;
-  margin: 25px 0px;
 }
 
 .content {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 50px; */
-  padding: 25px 50px;
-  margin: 25px 0px;
+  margin-top: 10rem;
 }
 
+.nav{
+  display: block;
+  margin: 2rem 0;
+  text-align: right;
+}
+/* 
+.nav-link{
+  margin: 0 1rem;
+} */
+
 .header {
-  /* background-color: yellow; */
-  /* width: 100px;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  overflow-x: hidden; */
+
 }
 
 .element {
   /* background-color: grey; */
-  margin: 25px 0px;
-}
-
-.hero-text {
-  padding-top: 100px;
-  padding-left: 30px;
-  color: white;
-}
-
-.hero-text:hover {
-  text-decoration: none;
-}
-
-.hero-image {
-  display: block;
-  height: 300px;
-  border-radius: 10px;
-  width: 100%;
-  background-color: #03A7E3;
-}
-
-.title {
-  text-align: center;
-  margin-top: 14px;
-}
-
-.footer {
-  background-color: purple;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: var(--nav-size);
-  background-color: purple;
-  color: white;
-  text-align: center;
-}
-
-/* Styling content page */
-.section {
-  margin-top: 50px;
-}
-
-.project-info {
-  display: inline-block;
-  margin-right: 16px;
-}
-
-/* Responsive - to be revisited */
-@media only screen and (min-width: 600px) and (max-width: 1200px) {
-  body {
-    background-color: lightblue;
-  }
-
-  .content {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightgrey;
-  }
-
-  .content {
-    grid-template-columns: 1fr;
-  }
+  /* margin: 25px 0px; */
 }
