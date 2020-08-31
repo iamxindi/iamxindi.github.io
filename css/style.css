@@ -2,6 +2,8 @@ body {
   font-family: 'Nunito', sans-serif;
   width: 100%;
   overflow: hidden;
+  /* background-image: url('http://via.placeholder.com/360x360');
+  background-repeat: no-repeat; */
 }
 
 :root {
@@ -23,23 +25,29 @@ h3 {
   font-weight: 200;
 }
 
+h4 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 h6 {
   font-weight: 600;
   text-transform: uppercase;
 }
 
 
-.main {
+/* .main {
   margin: var(--nav-size);
-}
+} */
 
 #inside {}
 
-.welcome {
+.row{
+  margin: 3rem 1rem;
 }
 
-.content {
-  margin-top: 10rem;
+.welcome{
+  margin-bottom: 5rem;
 }
 
 .nav{
@@ -47,7 +55,15 @@ h6 {
   margin: 2rem 0;
   text-align: right;
 }
-/* 
+
+.nav li{
+  display: inline;
+}
+
+.nav a {
+  padding: 8px;
+}
+/*
 .nav-link{
   margin: 0 1rem;
 } */
@@ -59,4 +75,19 @@ h6 {
 .element {
   /* background-color: grey; */
   /* margin: 25px 0px; */
+}
+
+.tag{
+  display: inline-block;
+  width: auto;
+  height: auto;
+  -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+  color: #e0951b;
+  /* background-color: grey; */
+  border: 1px solid #e0951b;
+  padding: 0 16px 0 16px;
+  font-weight: 300;
+  margin-right: 0.5rem;
 }
