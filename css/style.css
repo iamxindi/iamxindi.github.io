@@ -1,7 +1,7 @@
 body {
   font-family: 'Nunito', sans-serif;
   width: 100%;
-  overflow: hidden;
+  overflow: scroll;
   /* background-image: url('http://via.placeholder.com/360x360');
   background-repeat: no-repeat; */
 }
@@ -23,6 +23,7 @@ h1 {
 }
 
 h2 {
+  font-size: 24px;
   font-weight: 300;
 }
 
@@ -52,7 +53,7 @@ a:hover {
 }
 
 .row{
-  margin: 1rem 0;
+  margin: 3rem 0;
 }
 
 .welcome{
