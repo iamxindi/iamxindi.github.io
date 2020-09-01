@@ -12,19 +12,31 @@
 
 <body>
   <div class="container">
-    <div class="nav">
-      <ul>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
+    <div class="col-md-3">
+      <button onclick="toggleDark()" id="toggleDark-button" class="dark-button">Dark Mode</button>
+    </div>
+    <div class="col-md-9">
+      <div class="nav">
+        <ul>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
     </div>
   </div>
+  <!-- <div class="container">
+    <div class="col-12">
+      <button onclick="toggleDark()" id="toggleDark-button" class="dark-button">Dark Mode</button>
+    </div>
+  </div> -->
   <div class="container welcome">
     <div class="row">
       <div class="col-sm-9">
           <h1>Hello 👋 </h1>
           <h4>I'm Xindi, a product designer based in the Bay Area. </h4>
-          <span class="tag">AI & Search</span> <span class="tag">Design system</span>  <span class="tag">Healthcare</span> <span class="tag">Voice UI</span> <span class="tag">Accessibility</span>
+          <div class="intro-tags">
+            <span class="tag">AI & Search</span> <span class="tag">Design system</span>  <span class="tag">Healthcare</span> <span class="tag">Voice UI</span> <span class="tag">Accessibility</span>
+          </div>
       </div>
       <div class="col-sm-3">
         <img alt="Qries" src="img/icon-small.png">
@@ -48,12 +60,25 @@
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="project-description">
+          <a href="#">
+            <h3>Cross-platform Component System for web assistant</h3>
+            Product Design
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <img class="preview-img" src="http://via.placeholder.com/360x180" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="project-description">
           <h3>Better phone experience</h3>
           Reducing phone drop out rate for healthcare call center
         </div>
       </div>
       <div class="col-md-6 col-sm-12">
-        <img src="http://via.placeholder.com/360x360" alt="">
+        <img src="http://via.placeholder.com/360x180" alt="">
       </div>
 
     </div>

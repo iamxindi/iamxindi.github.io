@@ -7,7 +7,7 @@ body {
 }
 
 .dark-mode {
-  background-color: black;
+  background-color: #112233;
   color: white;
 }
 
@@ -19,7 +19,7 @@ body {
 /* Font Style */
 h1 {
   font-size: 32px;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 h2 {
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .row{
-  margin: 3rem 1rem;
+  margin: 1rem 0;
 }
 
 .welcome{
@@ -86,6 +86,10 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+/* .intro-tag{
+  margin-bottom: 1rem;
+} */
+
 .tag{
   display: inline-block;
   width: auto;
@@ -99,4 +103,27 @@ a:hover {
   padding: 0 16px 0 16px;
   font-weight: 300;
   margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Toggle Button */
+#toggleDark-button{
+  padding:0.5rem;
+  border-radius: 4px;
+  border: none;
+}
+
+/* .btn:active {
+  border-style: outset;
+  border: none;
+} */
+
+.dark-button{
+  color: #636363;
+  background-color: #d9d9d9;
+}
+
+.light-button{
+  color: white;
+  background-color: #040f1a;
 }

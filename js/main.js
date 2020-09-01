@@ -8,9 +8,14 @@
 // })
 // Old JS
 
-console.log("Hi");
-
 function toggleDark() {
   var element = document.body;
   element.classList.toggle("dark-mode");
+  var toggleButton = document.getElementById("toggleDark-button");
+  toggleButton.classList.toggle("light-button");
+  if (toggleButton.innerHTML === "Dark Mode") {
+      toggleButton.innerHTML = "Light Mode";
+    } else {
+      toggleButton.innerHTML = "Dark Mode";
+}
 }
